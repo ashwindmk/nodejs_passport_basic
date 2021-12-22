@@ -1,0 +1,21 @@
+{
+  "name": "node-passport-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ashwin Dinesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "passport": "^0.5.2",
+    "passport-http": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
